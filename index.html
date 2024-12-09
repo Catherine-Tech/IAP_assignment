@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Tasks</h1>
+            <form id="taskForm">
+                <input type="text" id="newTask" placeholder="New task">
+                <button type="submit" id="submit" disabled>Add Task</button>
+            </form>
+            <ul id="taskList"></ul>
+        </div>
+
+        <!--Record of tasks added-->
+        <div class="right-section">
+            <h2>Task History</h2>
+            <div id="taskHistory"></div>
+        </div>
+        <script src="tasks.js"></script>
+    </div>
+</body>
+</html>
